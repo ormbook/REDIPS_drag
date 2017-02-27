@@ -27,6 +27,12 @@
 		<title>Plan Your Trip</title>
 	</head>
 	<body>
+<script>
+$('#myTabs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+</script>	
 		<div id="main_container">
 			<!-- tables inside this DIV could have draggable content -->
 			<div id="redips-drag">

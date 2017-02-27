@@ -14,7 +14,9 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+				
 		<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
 		<script type="text/javascript">
 			var redipsURL = '/javascript/drag-and-drop-example-3/';
@@ -47,7 +49,7 @@
 							<tr><td class="dark"><div id="it" class="redips-drag redips-clone it">IT</div><input id="b_it" class="it" type="button" value="" onclick="redips.report('it')" title="Show only IT"/></td></tr>
 							<tr><td class="dark"><div id="ma" class="redips-drag redips-clone ma">Mathematics</div><input id="b_ma" class="ma" type="button" value="" onclick="redips.report('ma')" title="Show only Mathematics"/></td></tr>
 							<tr><td class="dark"><div id="ph" class="redips-drag redips-clone ph">Physics</div><input id="b_ph" class="ph" type="button" value="" onclick="redips.report('ph')" title="Show only Physics"/></td></tr>
-							<tr><td class="redips-trash" title="Trash">Trash</td></tr>
+							 
 						</tbody>
 					</table></a></li>
                                           <li role="presentation"><a href="#"><table id="table2">
@@ -64,7 +66,7 @@
 							<tr><td class="dark"><div id="it" class="redips-drag redips-clone it">IT</div><input id="b_it" class="it" type="button" value="" onclick="redips.report('it')" title="Show only IT"/></td></tr>
 							<tr><td class="dark"><div id="ma" class="redips-drag redips-clone ma">Mathematics</div><input id="b_ma" class="ma" type="button" value="" onclick="redips.report('ma')" title="Show only Mathematics"/></td></tr>
 							<tr><td class="dark"><div id="ph" class="redips-drag redips-clone ph">Physics</div><input id="b_ph" class="ph" type="button" value="" onclick="redips.report('ph')" title="Show only Physics"/></td></tr>
-							<tr><td class="redips-trash" title="Trash">Trash</td></tr>
+							 
 						</tbody>
 					</table></a></li>
                                           <li role="presentation"><a href="#"><table id="table3">
@@ -81,7 +83,7 @@
 							<tr><td class="dark"><div id="it" class="redips-drag redips-clone it">IT</div><input id="b_it" class="it" type="button" value="" onclick="redips.report('it')" title="Show only IT"/></td></tr>
 							<tr><td class="dark"><div id="ma" class="redips-drag redips-clone ma">Mathematics</div><input id="b_ma" class="ma" type="button" value="" onclick="redips.report('ma')" title="Show only Mathematics"/></td></tr>
 							<tr><td class="dark"><div id="ph" class="redips-drag redips-clone ph">Physics</div><input id="b_ph" class="ph" type="button" value="" onclick="redips.report('ph')" title="Show only Physics"/></td></tr>
-							<tr><td class="redips-trash" title="Trash">Trash</td></tr>
+							
 						</tbody>
 					</table></a></li>
                                        </ul>
@@ -180,6 +182,14 @@
 								<td></td>
 								<td></td>
 								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-trash" title="Trash">Trash</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>							
 							</tr>
 						</tbody>
 					</table>

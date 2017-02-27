@@ -39,7 +39,7 @@
 			<div id="redips-drag">
 	
 				<!-- left container (table with subjects) -->
-				<div id="left">
+				<div id="left" class="redips-noautoscroll">
 				<!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active"><a href="#Highlight" aria-controls="home" role="tab" data-toggle="tab" >Hi</a></li>

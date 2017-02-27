@@ -31,9 +31,7 @@
 		<title>Plan Your Trip</title>
 	</head>
 	<body>
-<script>
-$('#myTab a:first').tab('show') // Select first tab
-</script>	
+	
 		<div id="main_container">
 			<!-- tables inside this DIV could have draggable content -->
 			<div id="redips-drag">
@@ -86,6 +84,22 @@ $('#myTab a:first').tab('show') // Select first tab
 
 							</tr>
 							<tr>
+								<td class="redips-mark dark">06:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">07:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>							
+							<tr>
 								<td class="redips-mark dark">8:00</td>
 								<td></td>
 								<td></td>
@@ -127,7 +141,11 @@ $('#myTab a:first').tab('show') // Select first tab
 							</tr>
 							<tr>
 								<td class="redips-mark dark">13:00</td>
-								<td class="redips-mark lunch" colspan="5">Lunch</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
 							</tr>
 							<tr>
 								<td class="redips-mark dark">14:00</td>
@@ -154,6 +172,110 @@ $('#myTab a:first').tab('show') // Select first tab
 								<td></td>
 							</tr>
 							<tr>
+								<td class="redips-mark dark">17:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">18:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">19:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">20:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">21:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">22:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">23:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">00:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">01:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">02:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">03:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">04:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">05:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>							
+							<tr>
 								<td class="redips-trash" title="Trash">Trash</td>
 								<td></td>
 								<td></td>
@@ -168,5 +290,9 @@ $('#myTab a:first').tab('show') // Select first tab
 			
 		</div><!-- main container -->
 		<div id="message">Drag school subjects to the timetable (clone subjects with SHIFT key)</div>
+		
+<script>
+$('#myTab a:first').tab('show') // Select first tab
+</script>		
 	</body>
 </html>

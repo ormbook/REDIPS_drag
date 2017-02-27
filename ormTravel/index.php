@@ -293,7 +293,10 @@
 		<div id="message">Drag school subjects to the timetable (clone subjects with SHIFT key)</div>
 		
 <script>
+$(function () {
+// $('#myTab a[href="#<?=$tab?>"]').tab('show')
 $('#myTab a:first').tab('show') // Select first tab
+})
 </script>		
 	</body>
 </html>

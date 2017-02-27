@@ -39,7 +39,7 @@ $('#myTab a:first').tab('show') // Select first tab
 			<div id="redips-drag">
 	
 				<!-- left container (table with subjects) -->
-				<div id="left" style="overflow:scroll; height:400px;">
+				<div id="left" style="overflow-y: scroll; ">
 				<!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist" id="myTab">
     <li role="presentation" class="active"><a href="#Highlight" aria-controls="home" role="tab" data-toggle="tab" >Hi</a></li>

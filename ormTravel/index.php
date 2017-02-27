@@ -17,7 +17,7 @@
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 				
-		<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+		<link rel="stylesheet" href="xxxstyle.css" type="text/css" media="screen"/>
 		<script type="text/javascript">
 			var redipsURL = '/javascript/drag-and-drop-example-3/';
 		</script>

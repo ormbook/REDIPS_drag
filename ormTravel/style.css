@@ -1,126 +1,181 @@
 /*
 Darko Bunic
 http://www.redips.net/
-Jun, 2011.
+Mar, 2011.
 */
 
-body {
+body{
 	font-family: arial;
 	margin: 0px; /* for IE6 / IE7 */
 }
 
-/* add bottom margin between tables */
-#table1,
-#table2 {
-	margin-bottom: 20px;
-}
 
 /* drag container */
-#redips-drag {
+#main_container {
 	margin: auto;
-	width: 530px;
+	width: 730px;
 }
+		/* container for the left table */
+		#main_container #left {
+			width: 130px;
+			height: 320px;
+			float: left;
+			margin-right: 20px;
+		}
+		/* container for the main table and message line below */
+		#main_container #right {
+			width: 675px;
+			padding-left: auto;
+			padding-right: 0px;
+			/* align div to the right */
+			margin-left: auto;
+		}
 
-/* set border for images inside DRAG region - exclude image margin inheritance */
-/* my WordPress theme had some funny margin settings */
-#redips-drag img {
-	margin: 1px;
-}
 
 /* drag objects (DIV inside table cells) */
 .redips-drag {
 	cursor: move;
 	margin: auto;
-	margin-bottom: 1px;
-	margin-top: 1px;
 	z-index: 10;
-	background-color: white;
+	color: #222;
 	text-align: center;
 	font-size: 10pt; /* needed for cloned object */
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	/* without width, IE6/7 will not apply filter/opacity to the element ?! */
+	/* IE needs element layout */
 	width: 87px;
 	height: 20px;
 	line-height: 20px;
+	/* border */
+	border: 1px solid #555;
 	/* round corners */
-	border-radius: 4px; /* Opera, Chrome */
-	-moz-border-radius: 4px; /* FF */
+	border-radius: 3px;
+	-moz-border-radius: 3px; /* FF */
 }
 
-
-/* drag objects border for the first table */
-.t1 {
-	border: 2px solid #499B33;
-}
-/* drag object border for the second table */
-.t2 {
-	border: 2px solid SteelBlue;
-}
-/* cloned objects - third table */
-.t3 {
-	border: 2px solid #FF8A58;
-}
-/* allow / deny access to cells marked with 'mark' class name */
-.redips-mark {
-	color: white;
-	background-color: #9B9EA2;
-}
-/* trash cell */
-.redips-trash {
-	color: white;
-	background-color: #2D4B7A;
-}
 
 /* tables */
 div#redips-drag table {
-	background-color: #e0e0e0;
+	background-color: #eee;
 	border-collapse: collapse;
 }
+		/* timetable */
+		div#drag #table2 {
+			/* align table to the right */
+			margin-left: auto;
+		}
 
-
-/* input elements in dragging container */
-div#redips-drag input {
-	cursor: auto;
-}
-	/* height for input text in DIV element */
-	div#drag #d13 input {
-		height: 13px;
-	}
-	/* height for dropdown menu in DIV element */
-	div#drag #d5 select {
-		height: 20px;
-	}
 
 /* table cells */
 div#redips-drag td {
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
 	height: 32px;
-	border: 1px solid white;
 	text-align: center;
 	font-size: 10pt;
 	padding: 2px;
 }
+		/* overwrite border settings for left tables */
+		/* set all borders to 0px except border-bottom */
+		div#redips-drag #table1 td {
+			border-width: 0px 0px 1px 0px;
+		}
+			/* styles for clone DIV elements in left table */
+			div#redips-drag #table1 div {
+				margin-left: 5px;
+				float: left;
+			}
+			/* define styles for buttons */
+			div#redips-drag #table1 input {
+				float: right;
+				width: 15px;
+				height: 23px;
+				margin-right: 5px;
+				border-width: 1px;
+				/* round corners */
+				border-radius: 3px;
+				/* default visibility is hidden */
+				visibility: hidden;
+			}
 
-/* "Click" button */
-.button {
-	margin-bottom: 2px;
-	background-color: #6A93D4;
-	color: white; 
-	border-width: 1px;
-	width: 44px;
-	padding: 0px;
+
+/* subject colors */
+.ar {
+	background-color: #AAC8E2;
+}
+.bi {
+	background-color: #E7D783;
+}
+.ch {
+	background-color: #E99AE6;
+}
+.en {
+	background-color: #C4AFFF;
+}
+.et {
+	background-color: #91DEC5;
+}
+.hi {
+	background-color: #CFE17F;
+}
+.it {
+	background-color: #E7BD83;
+}
+.ma {
+	background-color: #FFC5C2;
+}
+.ph {
+	background-color: #A5F09D;
 }
 
 
-/* toggle checkboxes at the bottom */
-.checkbox {
-	margin-left: 13px;
-	margin-right: 14px;
-	width: 13px; /* needed for IE ?! */
+/* blank cells (upper left corner) */
+.blank {
+	background-color: white;
 }
 
 
-/* message cell */
-.message_line {
-	padding-left: 10px;
-	margin-bottom: 3px;
-	font-size: 10pt;
-	color: #888;
+/* background color for lunch */
+.lunch {
+	color: #665;
+	background-color: #f8eeee;
 }
+
+
+/* trash cell */
+.redips-trash {
+	color: white;
+	background-color: #6386BD;
+}
+
+
+/* message line */
+#message {
+	color: white;
+	background-color: #aaa;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+/* dark cells (first column and table header) */
+.dark{
+	color: #444;
+	background-color: #e0e0e0;
+}
+
+.button_container{
+	padding-top: 10px;
+	text-align: right;
+}
+
+		/* "Save" button */
+		.button_container input{
+			background-color: #6A93D4;
+			color: white; 
+			border-width: 1px;
+			width: 40px;
+			padding: 0px;
+		}

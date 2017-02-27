@@ -17,7 +17,7 @@ body{
 }
 		/* container for the left table */
 		#main_container #left {
-			width: 130px;
+			width: 200px;
 			height: 320px;
 			float: left;
 			margin-right: 20px;

@@ -17,7 +17,7 @@
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 				
-		<link rel="stylesheet" href="xxxstyle.css" type="text/css" media="screen"/>
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
 		<script type="text/javascript">
 			var redipsURL = '/javascript/drag-and-drop-example-3/';
 		</script>
@@ -33,60 +33,23 @@
 	
 				<!-- left container (table with subjects) -->
 				<div id="left">
-					<ul class="nav nav-tabs">
-                                         <li role="presentation" class="active"><a href="#">
-						 <table id="table1">
-						<colgroup>
-							<col width="190"/>
-						</colgroup>
-						<tbody>
-							<tr><td class="dark"><div id="ar" class="redips-drag redips-clone ar">Arts</div><input id="b_ar" class="ar" type="button" value="" onclick="redips.report('ar')" title="Show only Arts"/></td></tr>
-							<tr><td class="dark"><div id="bi" class="redips-drag redips-clone bi">Biology</div><input id="b_bi" class="bi" type="button" value="" onclick="redips.report('bi')" title="Show only Biology"/></td></tr>
-							<tr><td class="dark"><div id="ch" class="redips-drag redips-clone ch">Chemistry</div><input id="b_ch" class="ch" type="button" value="" onclick="redips.report('ch')" title="Show only Chemistry"/></td></tr>
-							<tr><td class="dark"><div id="en" class="redips-drag redips-clone en">English</div><input id="b_en" class="en" type="button" value="" onclick="redips.report('en')" title="Show only English"/></td></tr>
-							<tr><td class="dark"><div id="et" class="redips-drag redips-clone et">Ethics</div><input id="b_et" class="et" type="button" value="" onclick="redips.report('et')" title="Show only Ethics"/></td></tr>
-							<tr><td class="dark"><div id="hi" class="redips-drag redips-clone hi">History</div><input id="b_hi" class="hi" type="button" value="" onclick="redips.report('hi')" title="Show only History"/></td></tr>
-							<tr><td class="dark"><div id="it" class="redips-drag redips-clone it">IT</div><input id="b_it" class="it" type="button" value="" onclick="redips.report('it')" title="Show only IT"/></td></tr>
-							<tr><td class="dark"><div id="ma" class="redips-drag redips-clone ma">Mathematics</div><input id="b_ma" class="ma" type="button" value="" onclick="redips.report('ma')" title="Show only Mathematics"/></td></tr>
-							<tr><td class="dark"><div id="ph" class="redips-drag redips-clone ph">Physics</div><input id="b_ph" class="ph" type="button" value="" onclick="redips.report('ph')" title="Show only Physics"/></td></tr>
-							 
-						</tbody>
-					</table></a></li>
-                                          <li role="presentation"><a href="#"><table id="table2">
-						<colgroup>
-							<col width="190"/>
-						</colgroup>
-						<tbody>
-							<tr><td class="dark"><div id="ar2" class="redips-drag redips-clone ar">Arts</div><input id="b_ar" class="ar" type="button" value="" onclick="redips.report('ar')" title="Show only Arts"/></td></tr>
-							<tr><td class="dark"><div id="bi2" class="redips-drag redips-clone bi">Biology</div><input id="b_bi" class="bi" type="button" value="" onclick="redips.report('bi')" title="Show only Biology"/></td></tr>
-							<tr><td class="dark"><div id="ch2" class="redips-drag redips-clone ch">Chemistry</div><input id="b_ch" class="ch" type="button" value="" onclick="redips.report('ch')" title="Show only Chemistry"/></td></tr>
-							<tr><td class="dark"><div id="en2" class="redips-drag redips-clone en">English</div><input id="b_en" class="en" type="button" value="" onclick="redips.report('en')" title="Show only English"/></td></tr>
-							<tr><td class="dark"><div id="et2" class="redips-drag redips-clone et">Ethics</div><input id="b_et" class="et" type="button" value="" onclick="redips.report('et')" title="Show only Ethics"/></td></tr>
-							<tr><td class="dark"><div id="hi2" class="redips-drag redips-clone hi">History</div><input id="b_hi" class="hi" type="button" value="" onclick="redips.report('hi')" title="Show only History"/></td></tr>
-							<tr><td class="dark"><div id="it2" class="redips-drag redips-clone it">IT</div><input id="b_it" class="it" type="button" value="" onclick="redips.report('it')" title="Show only IT"/></td></tr>
-							<tr><td class="dark"><div id="ma2" class="redips-drag redips-clone ma">Mathematics</div><input id="b_ma" class="ma" type="button" value="" onclick="redips.report('ma')" title="Show only Mathematics"/></td></tr>
-							<tr><td class="dark"><div id="ph2" class="redips-drag redips-clone ph">Physics</div><input id="b_ph" class="ph" type="button" value="" onclick="redips.report('ph')" title="Show only Physics"/></td></tr>
-							 
-						</tbody>
-					</table></a></li>
-                                          <li role="presentation"><a href="#"><table id="table3">
-						<colgroup>
-							<col width="190"/>
-						</colgroup>
-						<tbody>
-							<tr><td class="dark"><div id="ar3" class="redips-drag redips-clone ar">Arts</div><input id="b_ar" class="ar" type="button" value="" onclick="redips.report('ar')" title="Show only Arts"/></td></tr>
-							<tr><td class="dark"><div id="bi3" class="redips-drag redips-clone bi">Biology</div><input id="b_bi" class="bi" type="button" value="" onclick="redips.report('bi')" title="Show only Biology"/></td></tr>
-							<tr><td class="dark"><div id="ch3" class="redips-drag redips-clone ch">Chemistry</div><input id="b_ch" class="ch" type="button" value="" onclick="redips.report('ch')" title="Show only Chemistry"/></td></tr>
-							<tr><td class="dark"><div id="en3" class="redips-drag redips-clone en">English</div><input id="b_en" class="en" type="button" value="" onclick="redips.report('en')" title="Show only English"/></td></tr>
-							<tr><td class="dark"><div id="et3" class="redips-drag redips-clone et">Ethics</div><input id="b_et" class="et" type="button" value="" onclick="redips.report('et')" title="Show only Ethics"/></td></tr>
-							<tr><td class="dark"><div id="hi3" class="redips-drag redips-clone hi">History</div><input id="b_hi" class="hi" type="button" value="" onclick="redips.report('hi')" title="Show only History"/></td></tr>
-							<tr><td class="dark"><div id="it3" class="redips-drag redips-clone it">IT</div><input id="b_it" class="it" type="button" value="" onclick="redips.report('it')" title="Show only IT"/></td></tr>
-							<tr><td class="dark"><div id="ma3" class="redips-drag redips-clone ma">Mathematics</div><input id="b_ma" class="ma" type="button" value="" onclick="redips.report('ma')" title="Show only Mathematics"/></td></tr>
-							<tr><td class="dark"><div id="ph3" class="redips-drag redips-clone ph">Physics</div><input id="b_ph" class="ph" type="button" value="" onclick="redips.report('ph')" title="Show only Physics"/></td></tr>
-							
-						</tbody>
-					</table></a></li>
-                                       </ul>
+				<!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#Highlight" aria-controls="home" role="tab" data-toggle="tab">Highlight</a></li>
+    <li role="presentation"><a href="#Shop" aria-controls="profile" role="tab" data-toggle="tab">Shop</a></li>
+    <li role="presentation"><a href="#Eat" aria-controls="messages" role="tab" data-toggle="tab">Eat</a></li>
+    <li role="presentation"><a href="#View" aria-controls="settings" role="tab" data-toggle="tab">View</a></li>
+    <li role="presentation"><a href="#Transport" aria-controls="settings" role="tab" data-toggle="tab">Transport</a></li>	  
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Highlight"><?php require("places.inc.php");?></div>
+    <div role="tabpanel" class="tab-pane" id="Shop"><?php require("places.inc.php");?></div>
+    <div role="tabpanel" class="tab-pane" id="Eat"><?php require("places.inc.php");?></div>
+    <div role="tabpanel" class="tab-pane" id="View"><?php require("places.inc.php");?></div>
+    <div role="tabpanel" class="tab-pane" id="Transport"><?php require("places.inc.php");?></div>	  
+  </div>
 					
 				</div><!-- left container -->
 				

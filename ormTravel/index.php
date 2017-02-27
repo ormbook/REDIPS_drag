@@ -72,10 +72,11 @@
 						<tbody>
 							<tr>
 								<!-- if checkbox is checked, clone school subjects to the whole table row  -->
-								<td class="redips-mark blank">
+								<td class="redips-trash" title="Trash">Trash</td>
+								<!--td class="redips-mark blank">
 									<input id="week" type="checkbox" title="Apply school subjects to the week"/>
 									<input id="report" type="checkbox" title="Show subject report"/>
-								</td>
+								</td-->
 								<td class="redips-mark dark">Monday</td>
 								<td class="redips-mark dark">Tuesday</td>
 								<td class="redips-mark dark">Wednesday</td>

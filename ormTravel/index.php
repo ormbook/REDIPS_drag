@@ -30,9 +30,7 @@
 	</head>
 	<body>
 <script>
-function fnGotoTab(tabid){
-$('#'+tabid+' a[href="#'+tabid+'"]').tab('show') // Select tab by name
-}//end fn
+
 </script>	
 		<div id="main_container">
 			<!-- tables inside this DIV could have draggable content -->
@@ -42,11 +40,11 @@ $('#'+tabid+' a[href="#'+tabid+'"]').tab('show') // Select tab by name
 				<div id="left">
 				<!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#Highlight" aria-controls="home" role="tab" data-toggle="tab" onClick="fnGotoTab('Highlight');">Hi</a></li>
-    <li role="presentation"><a href="#Shop" aria-controls="profile" role="tab" data-toggle="tab" onClick="fnGotoTab('Shop');">Sh</a></li>
-    <li role="presentation"><a href="#Eat" aria-controls="messages" role="tab" data-toggle="tab" onClick="fnGotoTab('Eat');">Et</a></li>
-    <li role="presentation"><a href="#View" aria-controls="settings" role="tab" data-toggle="tab" onClick="fnGotoTab('View');">Vw</a></li>
-    <li role="presentation"><a href="#Transport" aria-controls="settings" role="tab" data-toggle="tab" onClick="fnGotoTab('Transport');">Tr</a></li>	  
+    <li role="presentation" class="active"><a href="#Highlight" aria-controls="home" role="tab" data-toggle="tab" >Hi</a></li>
+    <li role="presentation"><a href="#Shop" aria-controls="Shop" role="tab" data-toggle="tab" >Sh</a></li>
+    <li role="presentation"><a href="#Eat" aria-controls="Eat" role="tab" data-toggle="tab">Et</a></li>
+    <li role="presentation"><a href="#View" aria-controls="View" role="tab" data-toggle="tab" >Vw</a></li>
+    <li role="presentation"><a href="#Transport" aria-controls="Transport" role="tab" data-toggle="tab" >Tr</a></li>	  
   </ul>
 
   <!-- Tab panes -->

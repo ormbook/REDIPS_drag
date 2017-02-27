@@ -44,11 +44,11 @@
 
   <!-- Tab panes -->
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="Highlight"><?php require("places.inc.php");?></div>
-    <div role="tabpanel" class="tab-pane" id="Shop"><?php require("places.inc.php");?></div>
-    <div role="tabpanel" class="tab-pane" id="Eat"><?php require("places.inc.php");?></div>
-    <div role="tabpanel" class="tab-pane" id="View"><?php require("places.inc.php");?></div>
-    <div role="tabpanel" class="tab-pane" id="Transport"><?php require("places.inc.php");?></div>	  
+    <div role="tabpanel" class="tab-pane fade active" id="Highlight"><?php require("places.inc.php");?></div>
+    <div role="tabpanel" class="tab-pane fade " id="Shop"><?php require("places.inc.php");?></div>
+    <div role="tabpanel" class="tab-pane fade " id="Eat"><?php require("places.inc.php");?></div>
+    <div role="tabpanel" class="tab-pane fade " id="View"><?php require("places.inc.php");?></div>
+    <div role="tabpanel" class="tab-pane fade " id="Transport"><?php require("places.inc.php");?></div>	  
   </div>
 					
 				</div><!-- left container -->

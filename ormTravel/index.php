@@ -37,7 +37,7 @@
 			<div id="redips-drag">
 	
 				<!-- left container (table with subjects) -->
-				<div id="left" style="overflow-y: scroll; ">
+				<div id="left" style="overflow-y: scroll; " class="no-print">
 				<!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist" id="myTab">
     <li role="presentation" class="active"><a href="#Highlight" aria-controls="home" role="tab" data-toggle="tab" >Hi</a></li>

@@ -11,7 +11,7 @@
 		<script type="text/javascript" src="../header.js"></script>
 		<script type="text/javascript" src="../redips-drag-min.js"></script>
 		<script type="text/javascript" src="script.js"></script>
-		<title>Example 3: School timetable (static)</title>
+		<title>Plan Your Trip</title>
 	</head>
 	<body>
 		<div id="main_container">

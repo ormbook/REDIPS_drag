@@ -20,7 +20,7 @@ redips.init = function () {
 	rd.hover.colorTd = '#9BB3DA';	// set hover color
 	rd.clone.keyDiv = true;			// enable cloning DIV elements with pressed SHIFT key
 	// prepare node list of DIV elements in table2
-	redips.divNodeList = document.getElementById('table2').getElementsByTagName('div');
+	redips.divNodeList = document.getElementById('tablePlan').getElementsByTagName('div');
 	// show / hide report buttons (needed for dynamic version - with index.php)
 	redips.reportButton();
 	// element is dropped

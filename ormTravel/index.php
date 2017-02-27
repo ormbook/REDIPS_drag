@@ -32,7 +32,7 @@
 	</head>
 	<body>
 <script>
-
+$('#Highlight a:first').tab('show') // Select first tab
 </script>	
 		<div id="main_container">
 			<!-- tables inside this DIV could have draggable content -->

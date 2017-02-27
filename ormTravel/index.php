@@ -165,7 +165,8 @@ $('#myTab a:first').tab('show') // Select first tab
 					</table>
 				</div><!-- right container -->
 			</div><!-- drag container -->
-			<div id="message">Drag school subjects to the timetable (clone subjects with SHIFT key)</div>
+			
 		</div><!-- main container -->
+		<div id="message">Drag school subjects to the timetable (clone subjects with SHIFT key)</div>
 	</body>
 </html>

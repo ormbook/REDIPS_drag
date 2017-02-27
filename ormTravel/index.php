@@ -32,7 +32,7 @@
 	</head>
 	<body>
 <script>
-$('#Highlight a:first').tab('show') // Select first tab
+$('#myTab a:first').tab('show') // Select first tab
 </script>	
 		<div id="main_container">
 			<!-- tables inside this DIV could have draggable content -->
@@ -41,7 +41,7 @@ $('#Highlight a:first').tab('show') // Select first tab
 				<!-- left container (table with subjects) -->
 				<div id="left" class="redips-noautoscroll">
 				<!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
+  <ul class="nav nav-tabs" role="tablist" id="myTab">
     <li role="presentation" class="active"><a href="#Highlight" aria-controls="home" role="tab" data-toggle="tab" >Hi</a></li>
     <li role="presentation"><a href="#Shop" aria-controls="Shop" role="tab" data-toggle="tab" >Sh</a></li>
     <li role="presentation"><a href="#Eat" aria-controls="Eat" role="tab" data-toggle="tab">Et</a></li>

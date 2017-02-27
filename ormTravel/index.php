@@ -4,140 +4,139 @@
 		<meta name="author" content="Darko Bunic"/>
 		<meta name="description" content="Drag and drop table content with JavaScript"/>
 		<meta name="viewport" content="width=device-width, user-scalable=no"/><!-- "position: fixed" fix for Android 2.2+ -->
-		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+		<script type="text/javascript">
+			var redipsURL = '/javascript/drag-and-drop-example-3/';
+		</script>
 		<script type="text/javascript" src="../header.js"></script>
 		<script type="text/javascript" src="../redips-drag-min.js"></script>
 		<script type="text/javascript" src="script.js"></script>
-		<title>Example 1: Three tables</title>
+		<title>Example 3: School timetable (static)</title>
 	</head>
 	<body>
-		<!-- tables inside this DIV could have draggable content -->
-		<div id="redips-drag">
-			<table id="table1">
-				<colgroup><col width="100"/><col width="100"/><col width="100"/><col width="100"/><col width="100"/></colgroup>
-				<tr>
-					<td class="redips-mark">You</td>
-					<td class="redips-mark">can</td>
-					<td class="redips-mark">not</td>
-					<td class="redips-mark">drop</td>
-					<td class="redips-mark">here</td>
-				</tr>
-				<tr style="background-color: #eee">
-					<td><div id="d1" class="redips-drag t1">Drag</div></td>
-					<td></td>
-					<td><div id="d2" class="redips-drag t1">and</div></td>
-					<td><div id="d3" class="redips-drag t1">drop</div></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td><div id="d4" class="redips-drag t1">content</div></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td><div id="d5" class="redips-drag t1"><select style="width: 60px"><option>table</option><option>drop</option><option>down</option><option>menu</option></select></div></td>
-				</tr>
-				<tr style="background-color: #eee">
-					<td></td>
-					<td><div id="d6" class="redips-drag t1">with</div></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-					<td><div id="d7" class="redips-drag t1">JavaScript</div></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr style="background-color: #eee">
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td><div id="d8" class="redips-drag t1"><img id="smile_img" src="icon_smile.gif"/></div></td>
-					<!-- <td><div id="d8" class="redips-drag t1"><img id="smile_img" src="/wp-includes/images/smilies/icon_smile.gif"/></div></td> -->
-				</tr>
-			</table>
-			<table id="table2">
-				<colgroup><col width="100"/><col width="100"/><col width="100"/><col width="100"/><col width="100"/></colgroup>
-				<tr>
-					<td class="redips-mark" title="You can not drop here">Table2</td>
-					<td style="background-color: #eee"><div id="d9" class="redips-drag t2">and</div></td>
-					<td rowspan="3" style="background-color: #C6C8CB" title="rowspan 3"></td>
-					<td style="background-color: #eee"></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td><div id="d10" class="redips-drag t2">Drag</div></td>
-					<td style="background-color: #eee"></td>
-					<td style="background-color: #eee"><div id="d11" class="redips-drag t2">drop</div></td>
-					<td><div id="d12" class="redips-drag t2">table</div></td>
-				</tr>
-				<tr>
-					<td colspan="2" style="background-color: #C6C8CB" title="colspan 2"></td>
-					<td colspan="2" style="background-color: #C6C8CB" title="colspan 2"></td>
-				</tr>
-				<tr>
-					<td colspan="2" style="background-color: #C6C8CB" title="colspan 2"></td>
-					<td rowspan="3" style="background-color: #C6C8CB" title="rowspan 3"></td>
-					<td colspan="2" style="background-color: #C6C8CB" title="colspan 2"></td>
-				</tr>
-				<tr>
-					<td><div id="d13" class="redips-drag t2"><input type="text" style="width: 60px" value="content"/></div></td>
-					<td style="background-color: #eee"></td>
-					<td style="background-color: #eee"></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td style="background-color: #eee"><div id="d14" class="redips-drag t2">with</div></td>
-					<td style="background-color: #eee"><div id="d15" class="redips-drag t2">JavaScript</div></td>
-					<td class="redips-mark smile" title="Only smile can be placed here"></td>
-				</tr>
-			</table>
-			<table id="table3">
-				<colgroup><col width="100"/><col width="100"/><col width="100"/><col width="100"/><col width="100"/></colgroup>
-				<tr style="background-color: #eee">
-					<td id="message" class="redips-mark" title="You can not drop here">Table3</td>
-					<!-- jump to smile image -->
-					<td><div id="link1" class="redips-drag t3"><a href="#smile_img" title="Jump to the smile image (links can be used as well)">Smile</a></div></td>
-					<td></td>
-					<td></td>
-					<td><div id="d16" class="redips-drag t3"><input type="checkbox" name="cb1"/><input type="checkbox" name="cb2"/><input type="checkbox" name="cb3"/></div></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td></td>
-					<td><div id="d17" class="redips-drag t3 redips-clone" title="infinite cloning">Clone</div></td>
-					<td></td>
-					<td></td>
-				</tr>
-				<tr>
-					<td><div id="d18" class="redips-drag t3 redips-clone climit1_3" title="Clone three elements">(1) Clone</div></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td><div id="d19" class="redips-drag t3 redips-clone climit2_2" title="Clone two elements and die">(2) Clone</div></td>
-				</tr>
-				<tr style="background-color: #eee">
-					<td><div id="d20" class="redips-drag t3"><input type="radio" name="radio1"/><input type="radio" name="radio1"/><input type="radio" name="radio1"/></div></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class="redips-trash" title="Trash">Trash</td>
-				</tr>
-			</table>
-			<div><input type="button" value="Save1" class="button" onclick="save('plain')" title="Send content to the server (it will only show accepted parameters)"/><span class="message_line">Save content of the first table (plain query string)</span></div>
-			<div><input type="button" value="Save2" class="button" onclick="save('json')" title="Send content to the server (it will only show accepted parameters)"/><span class="message_line">Save content of the first table (JSON format)</span></div>
-			<div><input type="radio" name="drop_option" class="checkbox" onclick="setMode(this)" value="multiple" title="Enabled dropping to already taken table cells" checked="true"/><span class="message_line">Enable dropping to already taken table cells</span></div>
-			<div><input type="radio" name="drop_option" class="checkbox" onclick="setMode(this)" value="single" title="Disabled dropping to already taken table cells"/><span class="message_line">Disable dropping to already taken table cells</span></div>
-			<div><input type="radio" name="drop_option" class="checkbox" onclick="setMode(this)" value="switch" title="Switch content"/><span class="message_line">Switch content</span></div>
-			<div><input type="radio" name="drop_option" class="checkbox" onclick="setMode(this)" value="switching" title="Switching content continuously"/><span class="message_line">Switching content continuously</span></div>
-			<div><input type="radio" name="drop_option" class="checkbox" onclick="setMode(this)" value="overwrite" title="Overwrite content"/><span class="message_line">Overwrite content</span></div>
-			<div><input type="checkbox" class="checkbox" onclick="toggleDeleteCloned(this)" title="Remove cloned object if dragged outside of any table" checked="true"/><span class="message_line">Remove cloned element if dragged outside of any table</span></div>
-			<div><input type="checkbox" class="checkbox" onclick="toggleConfirm(this)" title="Confirm delete"/><span class="message_line">Confirm delete</span></div>
-			<div><input type="checkbox" class="checkbox" onclick="toggleDragging(this)" title="Enable dragging" checked="true"/><span class="message_line">Enable dragging</span></div>			
-		</div>
+		<div id="main_container">
+			<!-- tables inside this DIV could have draggable content -->
+			<div id="redips-drag">
+	
+				<!-- left container (table with subjects) -->
+				<div id="left">
+					<table id="table1">
+						<colgroup>
+							<col width="190"/>
+						</colgroup>
+						<tbody>
+							<tr><td class="dark"><div id="ar" class="redips-drag redips-clone ar">Arts</div><input id="b_ar" class="ar" type="button" value="" onclick="redips.report('ar')" title="Show only Arts"/></td></tr>
+							<tr><td class="dark"><div id="bi" class="redips-drag redips-clone bi">Biology</div><input id="b_bi" class="bi" type="button" value="" onclick="redips.report('bi')" title="Show only Biology"/></td></tr>
+							<tr><td class="dark"><div id="ch" class="redips-drag redips-clone ch">Chemistry</div><input id="b_ch" class="ch" type="button" value="" onclick="redips.report('ch')" title="Show only Chemistry"/></td></tr>
+							<tr><td class="dark"><div id="en" class="redips-drag redips-clone en">English</div><input id="b_en" class="en" type="button" value="" onclick="redips.report('en')" title="Show only English"/></td></tr>
+							<tr><td class="dark"><div id="et" class="redips-drag redips-clone et">Ethics</div><input id="b_et" class="et" type="button" value="" onclick="redips.report('et')" title="Show only Ethics"/></td></tr>
+							<tr><td class="dark"><div id="hi" class="redips-drag redips-clone hi">History</div><input id="b_hi" class="hi" type="button" value="" onclick="redips.report('hi')" title="Show only History"/></td></tr>
+							<tr><td class="dark"><div id="it" class="redips-drag redips-clone it">IT</div><input id="b_it" class="it" type="button" value="" onclick="redips.report('it')" title="Show only IT"/></td></tr>
+							<tr><td class="dark"><div id="ma" class="redips-drag redips-clone ma">Mathematics</div><input id="b_ma" class="ma" type="button" value="" onclick="redips.report('ma')" title="Show only Mathematics"/></td></tr>
+							<tr><td class="dark"><div id="ph" class="redips-drag redips-clone ph">Physics</div><input id="b_ph" class="ph" type="button" value="" onclick="redips.report('ph')" title="Show only Physics"/></td></tr>
+							<tr><td class="redips-trash" title="Trash">Trash</td></tr>
+						</tbody>
+					</table>
+				</div><!-- left container -->
+				
+				<!-- right container -->
+				<div id="right">
+					<table id="table2">
+						<colgroup>
+							<col width="50"/>
+							<col width="100"/>
+							<col width="100"/>
+							<col width="100"/>
+							<col width="100"/>
+							<col width="100"/>
+						</colgroup>
+						<tbody>
+							<tr>
+								<!-- if checkbox is checked, clone school subjects to the whole table row  -->
+								<td class="redips-mark blank">
+									<input id="week" type="checkbox" title="Apply school subjects to the week" checked/>
+									<input id="report" type="checkbox" title="Show subject report"/>
+								</td>
+								<td class="redips-mark dark">Monday</td>
+								<td class="redips-mark dark">Tuesday</td>
+								<td class="redips-mark dark">Wednesday</td>
+								<td class="redips-mark dark">Thursday</td>
+								<td class="redips-mark dark">Friday</td>
+
+							</tr>
+							<tr>
+								<td class="redips-mark dark">8:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">9:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">10:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">11:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">12:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">13:00</td>
+								<td class="redips-mark lunch" colspan="5">Lunch</td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">14:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">15:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="redips-mark dark">16:00</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!-- right container -->
+			</div><!-- drag container -->
+			<div id="message">Drag school subjects to the timetable (clone subjects with SHIFT key)</div>
+		</div><!-- main container -->
 	</body>
 </html>

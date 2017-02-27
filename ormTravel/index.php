@@ -31,10 +31,7 @@
 	<body>
 <script>
 function fnGotoTab(tabid){
-$('#'+tabid+' a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-})
+$('#'+tabid+' a[href="#'+tabid+'"]').tab('show') // Select tab by name
 }//end fn
 </script>	
 		<div id="main_container">

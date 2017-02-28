@@ -326,9 +326,11 @@ $('#myTab a:last').tab('show') // Select first tab
 	
 //
 function fnShowModal(id){
+$('#myModal').modal('toggle');
 //load content by id
+	//ajax
 //Show content in Modal
-  document.getElementById("idModalContent").innerHTML=id+"Waiting...";
+  document.getElementById("idModalContent").innerHTML=id+" Waiting...";
 }
 </script>
 	</body>

@@ -52,6 +52,8 @@ redips.init = function () {
 		}
 		// show / hide report buttons
 		redips.reportButton();
+		//cal
+		redips.cal();
 	};
 
 	// after element is deleted from the timetable, print message
@@ -59,11 +61,14 @@ redips.init = function () {
 		redips.printMessage('Content has been deleted!');
 		// show / hide report buttons
 		redips.reportButton();
+		//cal
+		redips.cal();		
 	};
 	
 	// if any element is clicked, then make all subjects in timetable visible
 	rd.event.clicked = function () {
 		redips.showAll();
+		
 	};
 };
 
@@ -71,7 +76,7 @@ redips.init = function () {
 // save elements and their positions
 redips.save = function () {
 	// scan timetable content
-	var content = REDIPS.drag.saveContent('table2');
+	var content = REDIPS.drag.saveContent('tablePlan');
 	// and save content
 	window.location.href = 'db_save.php?' + content;
 };
@@ -184,6 +189,13 @@ redips.showAll = function () {
 	for (i = 0; i < redips.divNodeList.length; i++) {
 		redips.divNodeList[i].style.visibility = 'visible';
 	}
+};
+
+// cal
+redips.cal = function () {
+	var txt=document.getElementById('1').innerHTML;
+	document.getElementById('spending_money').innerHTML = txt;
+	document.getElementById('spending_time').innerHTML = txt;
 };
 
 

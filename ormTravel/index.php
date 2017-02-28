@@ -312,9 +312,8 @@
       <div class="modal-body">
 	  <ul class="nav nav-tabs" role="tablist" id="idModalTab">
 	    <li role="presentation" class="active"><a href="#idModalContent" aria-controls="Home" role="tab" data-toggle="tab" >Content</a></li>
-	    <li role="presentation"><a href="#Review" aria-controls="Review" role="tab" data-toggle="tab" >Review</a></li>  
+	    <li role="presentation"><a href="#idModalReview" aria-controls="idModalReview" role="tab" data-toggle="tab" >Review</a></li>  
 	  </ul>
-
 	  <!-- Tab panes -->
 	  <div class="tab-content">
 	    <div role="tabpanel" class="tab-pane fade active" id="idModalContent"></div>

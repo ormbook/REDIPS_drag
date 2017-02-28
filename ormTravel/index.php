@@ -317,7 +317,13 @@
 	  <!-- Tab panes -->
 	  <div class="tab-content">
 	    <div role="tabpanel" class="tab-pane fade active" id="idModalContent"></div>
-	    <div role="tabpanel" class="tab-pane fade" id="idModalReview">Waiting for Review</div>  
+	    <div role="tabpanel" class="tab-pane fade" id="idModalReview"> 
+		  <div class="jumbotron">
+			  <h1>ยินดีต้อนรับสู่การรีวิว โดยชุมชนของเรา ormTravel</h1>
+			  <p>...</p>
+			  <p><a class="btn btn-primary btn-lg" href="#" role="button">อ่านต่อ...</a></p>
+			</div>
+		  </div>  
 	  </div>
       </div>
       <div class="modal-footer">

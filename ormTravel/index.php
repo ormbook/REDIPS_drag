@@ -297,6 +297,7 @@
 <script>
 $(function () {
 $('#myTab a[href="#Home"]').tab('show');
+	alert('welcome to plan');
 //$('#myTab a:first').tab('show') // Select first tab
 })
 </script>		

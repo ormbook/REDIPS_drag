@@ -20,7 +20,7 @@ body{
 			width: 350px;
 			height: 500px;
 			float: left;
-			position: fixed;
+			//position: fixed;
 			margin-right: 3px;
 		}
 		/* container for the main table and message line below */

@@ -310,11 +310,20 @@
         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
       <div class="modal-body">
-        <div id="idModalContent"></div>
+	  <ul class="nav nav-tabs" role="tablist" id="idModalTab">
+	    <li role="presentation" class="active"><a href="#idModalContent" aria-controls="Home" role="tab" data-toggle="tab" >Content</a></li>
+	    <li role="presentation"><a href="#Review" aria-controls="Review" role="tab" data-toggle="tab" >Review</a></li>  
+	  </ul>
+
+	  <!-- Tab panes -->
+	  <div class="tab-content">
+	    <div role="tabpanel" class="tab-pane fade active" id="idModalContent"></div>
+	    <div role="tabpanel" class="tab-pane fade" id="idModalReview">Waiting for Review</div>  
+	  </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <!--button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button-->
       </div>
     </div>
   </div>
@@ -329,9 +338,10 @@ $('#myTab a:last').tab('show') // Select first tab
 function fnShowModal(id){
 $('#myModal').modal('toggle');
 //load content by id
-  $.get( "loadContent.php", { url: id } )
+  $.get( "loadContent.php", { id: id } )
   .done(function( data ) {
      //Show content in Modal
+      $('#idModalTab a:first').tab('show') // Select first tab  
       document.getElementById("idModalContent").innerHTML=data;
   });
 

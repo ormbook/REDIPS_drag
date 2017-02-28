@@ -4,7 +4,7 @@
 /* enable strict mode */
 "use strict";
 
-REDIPS.drag.dropMode="multiple";
+
 
 
 // create redips container
@@ -19,7 +19,7 @@ redips.init = function () {
 	// initialization
 	rd.init();
 	// REDIPS.drag settings
-	rd.dropMode = 'single';			// dragged elements can be placed only to the empty cells
+	rd.dropMode = 'multiple';			// 'single'=dragged elements can be placed only to the empty cells
 	rd.hover.colorTd = '#9BB3DA';	// set hover color
 	rd.clone.keyDiv = true;			// enable cloning DIV elements with pressed SHIFT key
 	// prepare node list of DIV elements in table2

@@ -45,7 +45,7 @@ body{
 	/* without width, IE6/7 will not apply filter/opacity to the element ?! */
 	/* IE needs element layout */
 	width: 87px;
-	height: 20px;
+	height: 50px;
 	line-height: 20px;
 	/* border */
 	border: 1px solid #555;

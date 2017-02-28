@@ -37,8 +37,8 @@
  <?php
 }else if($param=="Transport"){
 ?>
-<tr><td class="dark"><div class="redips-drag redips-clone ar">เดินทางนาริตะ-เข้าเมือง</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone bi">เดินทางฮาเนดะ-เข้าเมือง</div></td></tr>
+<tr><td class="dark"><div class="redips-drag redips-clone ar">เดินทางนาริตะ-เข้าเมือง<data id="1" price="JPY5000" time="1hr"></div></td></tr>
+<tr><td class="dark"><div class="redips-drag redips-clone bi">เดินทางฮาเนดะ-เข้าเมือง<data id="2" price="JPY3000" time="0.5hr"></div></td></tr>
 <tr><td class="dark"><div class="redips-drag redips-clone ch">เดินทางไปสนามบินนาริตะ</div></td></tr>
 <tr><td class="dark"><div class="redips-drag redips-clone en">เดินทางไปสนามบินฮาเนดะ</div></td></tr>
 <tr><td class="dark"><div class="redips-drag redips-clone et">เดินทางไปภูเขาไฟฟูจิ</div></td></tr>

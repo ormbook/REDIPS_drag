@@ -25,7 +25,7 @@ redips.init = function () {
 	// prepare node list of DIV elements in table2
 	redips.divNodeList = document.getElementById('tablePlan').getElementsByTagName('div');
 	// show / hide report buttons (needed for dynamic version - with index.php)
-	redips.reportButton();
+	//redips.reportButton();
 	// element is dropped
 	rd.event.dropped = function () {
 		var	objOld = rd.objOld,					// original object

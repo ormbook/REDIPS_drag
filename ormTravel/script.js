@@ -4,6 +4,8 @@
 /* enable strict mode */
 "use strict";
 
+REDIPS.drag.dropMode="multiple";
+
 
 // create redips container
 var redips = {};
@@ -11,6 +13,7 @@ var redips = {};
 
 // redips initialization
 redips.init = function () {
+	
 	// reference to the REDIPS.drag object
 	var	rd = REDIPS.drag;
 	// initialization

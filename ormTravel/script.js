@@ -181,10 +181,10 @@ redips.showAll = function () {
 // cal
 function cal() {
 	var txt=document.getElementById('c0').innerHTML;
-	var txt2=document.getElementById('c1').innerHTML;
+	//var txt2=document.getElementById('c1').innerHTML;
 	document.getElementById('spending_money').innerHTML = txt;
-	document.getElementById('spending_time').innerHTML = 'time '+txt2;
-	alert('txt'+txt);
+	//document.getElementById('spending_time').innerHTML = 'time '+txt2;
+	//alert('txt'+txt);
 };
 
 

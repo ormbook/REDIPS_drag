@@ -1,21 +1,7 @@
 <table>
 <tbody>
 <?php if($param=="Home"){ ?>
-<tr><td class="dark"><div class="redips-drag redips-clone ar">Get up</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone ar">Bath</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone ar">Breakfast</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone ar">Pack Bag</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone ar">Check in</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone ar">Check out</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone ma">Passport</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone ar">Airport</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone ar">Fly</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone ar">Go</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone ch">Welcome</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone bi">Booking</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone bi">Flight</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone bi">Hotel</div></td></tr>
-<tr><td class="dark"><div class="redips-drag redips-clone bi">Train</div></td></tr>
+
 <?php
 }else{
 ?>

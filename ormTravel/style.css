@@ -198,3 +198,7 @@ div#redips-drag td {
     height:60px;
     cursor: hand;
 }
+
+td {
+     vertical-align: top;
+}

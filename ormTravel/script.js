@@ -51,7 +51,7 @@ redips.init = function () {
 			redips.printMessage('Content has been changed!');
 		}
 		// show / hide report buttons
-		redips.reportButton();
+		//redips.reportButton();
 		//cal
 		redips.cal();
 	};
@@ -60,7 +60,7 @@ redips.init = function () {
 	rd.event.deleted = function () {
 		redips.printMessage('Content has been deleted!');
 		// show / hide report buttons
-		redips.reportButton();
+		//redips.reportButton();
 		//cal
 		redips.cal();		
 	};
@@ -193,9 +193,10 @@ redips.showAll = function () {
 
 // cal
 redips.cal = function () {
-	var txt=document.getElementById('1').innerHTML;
+	var txt=document.getElementById('c0').innerHTML;
+	var txt2=document.getElementById('c1').innerHTML;
 	document.getElementById('spending_money').innerHTML = txt;
-	document.getElementById('spending_time').innerHTML = txt;
+	document.getElementById('spending_time').innerHTML = txt2;
 };
 
 

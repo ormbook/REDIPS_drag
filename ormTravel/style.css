@@ -188,3 +188,10 @@ div#redips-drag td {
         display: none !important;
     }
 }
+
+div.img {
+    margin: 0px;
+    border: 0px solid #ccc;
+    float: left;
+    width: 87px;
+}

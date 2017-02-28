@@ -51,11 +51,11 @@
   <!-- Tab panes -->
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane fade active" id="Home"><?php $param="Home";require("places.inc.php");?></div>
-    <div role="tabpanel" class="tab-pane fade" id="Highlight"><?php require("places.inc.php");?></div>
-    <div role="tabpanel" class="tab-pane fade " id="Shop"><?php require("places.inc.php");?></div>
-    <div role="tabpanel" class="tab-pane fade " id="Eat"><?php require("places.inc.php");?></div>
-    <div role="tabpanel" class="tab-pane fade " id="View"><?php require("places.inc.php");?></div>
-    <div role="tabpanel" class="tab-pane fade " id="Transport"><?php require("places.inc.php");?></div>	  
+    <div role="tabpanel" class="tab-pane fade" id="Highlight"><?php $param="Highlight";require("places.inc.php");?></div>
+    <div role="tabpanel" class="tab-pane fade " id="Shop"><?php $param="Shop";require("places.inc.php");?></div>
+    <div role="tabpanel" class="tab-pane fade " id="Eat"><?php $param="Eat";require("places.inc.php");?></div>
+    <div role="tabpanel" class="tab-pane fade " id="View"><?php $param="View";require("places.inc.php");?></div>
+    <div role="tabpanel" class="tab-pane fade " id="Transport"><?php $param="Transport";equire("places.inc.php");?></div>	  
   </div>
 					
 				</div><!-- left container -->

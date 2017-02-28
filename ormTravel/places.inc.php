@@ -34,7 +34,11 @@
 <tr><td class="dark"><div class="redips-drag redips-clone ma">คาวาคูจิโกะ (Kawakuchiko)</div></td></tr>
 <tr><td class="dark"><div class="redips-drag redips-clone ph">ฮาโกเน่ (Hakone)</div></td></tr>
 
- <?php
+<?php
+}else if($param=="Shoping"){
+?>
+<tr><td class="dark"><div class="redips-drag redips-clone ma">ไดโซะ (Daiso)</div></td></tr>
+<?php
 }else if($param=="Transport"){
 ?>
 <tr><td class="dark"><div class="redips-drag redips-clone ar">

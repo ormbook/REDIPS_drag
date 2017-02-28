@@ -50,7 +50,7 @@
 
   <!-- Tab panes -->
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane fade active" id="Home"><?php require("places.inc.php");?></div>
+    <div role="tabpanel" class="tab-pane fade active" id="Home"><?php $param="Home";require("places.inc.php");?></div>
     <div role="tabpanel" class="tab-pane fade" id="Highlight"><?php require("places.inc.php");?></div>
     <div role="tabpanel" class="tab-pane fade " id="Shop"><?php require("places.inc.php");?></div>
     <div role="tabpanel" class="tab-pane fade " id="Eat"><?php require("places.inc.php");?></div>

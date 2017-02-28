@@ -44,7 +44,7 @@ body{
 	filter: alpha(opacity=70);
 	/* without width, IE6/7 will not apply filter/opacity to the element ?! */
 	/* IE needs element layout */
-	width: 87px;
+	width: 90px;
 	height: auto;
 	line-height: 20px;
 	word-wrap: break-word;

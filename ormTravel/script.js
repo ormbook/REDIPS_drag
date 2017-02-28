@@ -53,7 +53,7 @@ redips.init = function () {
 		// show / hide report buttons
 		//redips.reportButton();
 		//cal
-		redips.cal();
+		cal();
 	};
 
 	// after element is deleted from the timetable, print message
@@ -62,7 +62,7 @@ redips.init = function () {
 		// show / hide report buttons
 		//redips.reportButton();
 		//cal
-		redips.cal();		
+		cal();		
 	};
 	
 	// if any element is clicked, then make all subjects in timetable visible
@@ -192,7 +192,7 @@ redips.showAll = function () {
 };
 
 // cal
-redips.cal = function () {
+function cal() {
 	var txt=document.getElementById('c0').innerHTML;
 	var txt2=document.getElementById('c1').innerHTML;
 	document.getElementById('spending_money').innerHTML = txt;

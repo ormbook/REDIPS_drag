@@ -195,4 +195,5 @@ div#redips-drag td {
     float: left;
     width: 90px;
     height:60px;
+    cursor: hand;
 }

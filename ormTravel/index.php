@@ -319,6 +319,7 @@
     </div>
   </div>
 </div>	
+		
 <script>
 $(function () {
 $('#myTab a:last').tab('show') // Select first tab
@@ -328,9 +329,12 @@ $('#myTab a:last').tab('show') // Select first tab
 function fnShowModal(id){
 $('#myModal').modal('toggle');
 //load content by id
-	//ajax
-//Show content in Modal
-  document.getElementById("idModalContent").innerHTML=id+" Waiting...";
+  $.get( "loadContent.php", { url: id } )
+  .done(function( data ) {
+     //Show content in Modal
+      document.getElementById("idModalContent").innerHTML=data;
+  });
+
 }
 </script>
 	</body>

@@ -293,6 +293,8 @@
 			
 		</div><!-- main container -->
 		<div id="message">Drag school subjects to the timetable (clone subjects with SHIFT key)</div>
+		<div id="spending_money">spending_money</div>
+		<div id="spending_time">spending_time</div>
 		
 <script>
 $(function () {

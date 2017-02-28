@@ -296,7 +296,7 @@
 		
 <script>
 $(function () {
-$('#myTab a[href="#Home"]').tab('show')
+$('#myTab a[href="#Home"]').tab('show');
 //$('#myTab a:first').tab('show') // Select first tab
 })
 </script>		

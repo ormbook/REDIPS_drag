@@ -25,8 +25,8 @@
 		<script type="text/javascript">
 			var redipsURL = '/javascript/drag-and-drop-example-3/';
 		</script>
-		<script type="text/javascript" src="../header.js"></script>
-		<script type="text/javascript" src="../redips-drag-min.js"></script>
+		<script type="text/javascript" src="header.js"></script>
+		<script type="text/javascript" src="redips-drag-min.js"></script>
 		<script type="text/javascript" src="script.js"></script>
 		<title>Plan Your Trip</title>
 	</head>

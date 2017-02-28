@@ -40,7 +40,7 @@
 				<div id="left" style="overflow-y:scroll;" class="no-print">
 				<!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist" id="myTab">
-    <li role="presentation" class="active"><a href="#Home" aria-controls="home" role="tab" data-toggle="tab" >Home</a></li>
+    <li role="presentation" class="active"><a href="#Home" aria-controls="Home" role="tab" data-toggle="tab" >Home</a></li>
     <li role="presentation"><a href="#Highlight" aria-controls="Highlight" role="tab" data-toggle="tab" >Hi</a></li>
     <li role="presentation"><a href="#Shop" aria-controls="Shop" role="tab" data-toggle="tab" >Sh</a></li>
     <li role="presentation"><a href="#Eat" aria-controls="Eat" role="tab" data-toggle="tab">Et</a></li>

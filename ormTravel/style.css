@@ -13,11 +13,11 @@ body{
 /* drag container */
 #main_container {
 	margin: auto;
-	width: 1000px;
+	width: 1050px;
 }
 		/* container for the left table */
 		#main_container #left {
-			width: 300px;
+			width: 350px;
 			height: 500px;
 			float: left;
 			margin-right: 3px;

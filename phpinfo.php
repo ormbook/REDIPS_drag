@@ -1,6 +1,6 @@
 <?php
 
-$dir    = '/app/.composer';
+$dir    = '/app';
 $files1 = scandir($dir);
 print_r($files1);
 

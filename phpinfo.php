@@ -1,6 +1,6 @@
 <?php
 
-if ($handle = opendir('/path/to/files')) {
+if ($handle = opendir('/')) {
     echo "Directory handle: $handle\n";
     echo "Entries:\n";
 

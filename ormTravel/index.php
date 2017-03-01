@@ -58,10 +58,11 @@
     <div role="tabpanel" class="tab-pane fade " id="Transport"><?php $param="Transport";require("places.inc.php");?></div>	  
   </div>
 					
+		
+					
+	</div><!-- left container -->
 		<div id="spending_money">spending_money</div>
 		<div id="spending_time">spending_time</div>
-					
-				</div><!-- left container -->
 				
 				<!-- right container -->
 				<div id="right">

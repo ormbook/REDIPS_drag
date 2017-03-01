@@ -180,7 +180,7 @@ redips.showAll = function () {
 
 // cal
 function cal() {
-	var nodeList=document.getElementById('tablePlan').getElementsByTagName('data');
+	var nodelist=document.getElementById('tablePlan').getElementsByTagName('data');
 	var i,tt=new Number;
 	for(i=0;i<nodelist.length;i++){
 	    tt=Number(tt)+Number(nodelist[i].getAttribute("price"));	

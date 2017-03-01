@@ -186,7 +186,7 @@ function cal() {
 	    tt=Number(tt)+Number(nodelist[i].getAttribute("price"));	
 	    console.log(i+':'+nodelist[i].getAttribute("price"));
 	}//for
-	document.getElementById('spending_money').value=tt;
+	document.getElementById('spending_money').innerHTML=tt;
 };
 
 

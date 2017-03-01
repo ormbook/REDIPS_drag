@@ -58,6 +58,9 @@
     <div role="tabpanel" class="tab-pane fade " id="Transport"><?php $param="Transport";require("places.inc.php");?></div>	  
   </div>
 					
+		<div id="spending_money">spending_money</div>
+		<div id="spending_time">spending_time</div>
+					
 				</div><!-- left container -->
 				
 				<!-- right container -->
@@ -293,8 +296,7 @@
 			
 		</div><!-- main container -->
 		<div id="message">Drag school subjects to the timetable (clone subjects with SHIFT key)</div>
-		<div id="spending_money">spending_money</div>
-		<div id="spending_time">spending_time</div>
+
 
 <!-- Button trigger modal -->
 <!--button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">

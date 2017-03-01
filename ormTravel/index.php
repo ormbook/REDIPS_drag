@@ -59,10 +59,10 @@
   </div>
 					
 		
-					
+	<div id="spending_money">spending_money</div>
+		<div id="spending_time">spending_time</div>				
 	</div><!-- left container -->
-		<div id="spending_money">spending_money</div>
-		<div id="spending_time">spending_time</div>
+		
 				
 				<!-- right container -->
 				<div id="right">
